@@ -11,8 +11,6 @@ fi
 
 python3 -m venv $PYENV_HOME
 chmod +x $PYENV_HOME/bin/activate
-$PYENV_HOME/bin/activate
+. $PYENV_HOME/bin/activate
 
 pip install -r ./requirements.txt
-
-flask run
