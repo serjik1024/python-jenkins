@@ -1,5 +1,5 @@
-sudo apt update
-sudo apt install python-pip
+sudo apt update -y
+sudo apt install python-pip -y
 
 # Next line is for command line test
 # PYENV_HOME="/home/labsuser/jenkins/workspace/python-freestyle/.sample1"
